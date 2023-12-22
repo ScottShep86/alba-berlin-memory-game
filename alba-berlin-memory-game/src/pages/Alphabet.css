@@ -1,0 +1,66 @@
+.fullAlphabet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.fullAlphabet img {
+  width: 30px;
+}
+
+.fullAlphabet button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.dictionary {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.dictionaryImage {
+  object-fit: cover;
+  height: 250px;
+  width: 250px;
+  border-radius: 8px;
+  border: solid 2px #313866;
+  position: relative;
+  transform: rotate(-6deg);
+}
+
+.dictionaryImage:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: rotate(6deg);
+}
+
+.dictionaryEntry {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dictionaryEntry p {
+  display: flex;
+  align-items: center;
+}
+.dictionaryEntry img {
+  height: 100px;
+}
+
+@media screen and (min-width: 1920px) {
+  .fullAlphabet {
+    gap: 15px;
+  }
+  .fullAlphabet img {
+    width: 40px;
+  }
+  .dictionaryImage {
+    height: 350px;
+    width: 350px;
+  }
+}

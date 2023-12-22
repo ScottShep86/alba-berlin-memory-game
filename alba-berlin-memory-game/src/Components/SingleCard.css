@@ -1,44 +1,55 @@
 .card {
-    position: relative;
+  position: relative;
 }
 
 .card img {
-    border: 300px;
-    display: block;
-    border: 2px solid #313866;
-    border-radius: 6px;
-    background-color: #F8DE22;
+  border: 300px;
+  display: block;
+  border: 2px solid #313866;
+  border-radius: 6px;
+  background-color: #f8de22;
 }
 
 .front {
-    padding-left: 32.5px;
-    padding-right: 32.5px;
-    height: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 80px;
 }
 
 .back {
-    height: 100px;
+  height: 80px;
 }
 
 /* front of car - the picture */
 .card .front {
-    transform: rotateY(90deg);
-    transition: all ease-in 0.2s;
-    position: absolute;
+  transform: rotateY(90deg);
+  transition: all ease-in 0.2s;
+  position: absolute;
 }
 
 .flipped .front {
-    transform: rotateY(0deg);
-    transition-delay: 0.2s;
+  transform: rotateY(0deg);
+  transition-delay: 0.2s;
 }
 
 /* back of card - cover */
 .card .back {
-    transition: all ease-in 0.2s;
-    transition-delay: 0.2s;
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
 }
 
 .flipped .back {
-    transform: rotateY(90deg);
-    transition-delay: 0s;
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
+
+@media screen and (min-width: 1920px) {
+  .back {
+    height: 150px;
+  }
+  .front {
+    padding-left: 28.5px;
+    padding-right: 28.5px;
+    height: 150px;
+  }
 }

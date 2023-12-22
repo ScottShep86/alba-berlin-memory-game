@@ -1,0 +1,19 @@
+.ausmalbildBtn {
+  margin: 0;
+  background-color: #f8de22;
+  color: #313866;
+  border: solid 2px white;
+  animation: ausmalbildBtn 2s infinite;
+}
+
+@keyframes ausmalbildBtn {
+  0% {
+    transform: rotate(-6deg);
+  }
+  50% {
+    transform: rotate(6deg);
+  }
+  100% {
+    transform: rotate(-6deg);
+  }
+}
