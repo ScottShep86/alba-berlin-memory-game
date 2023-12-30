@@ -12,7 +12,7 @@ export default function Navbar() {
         </Link>
         <img className="kidsZoneB" src={kidsZoneB} alt="Alba Kids Zone" />
       </div>
-      <div>
+      <div className='navMiddle'>
         <AusmalbildButton />
       </div>
       <div className="links">
