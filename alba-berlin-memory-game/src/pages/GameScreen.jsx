@@ -295,6 +295,7 @@ export default function GameScreen() {
                 <div className="bio">
                   <img src={matchedPlayer.image2} alt={matchedPlayer.name} />
                   <Link
+                    className="bioLink"
                     to={matchedPlayer.url}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -307,6 +308,7 @@ export default function GameScreen() {
                 <div className="bio">
                   <img className="default-image" src={Logo} alt="Alba Logo" />
                   <Link
+                    className="bioLink"
                     to="https://www.albaberlin.de/"
                     target="_blank"
                     rel="noopener noreferrer"

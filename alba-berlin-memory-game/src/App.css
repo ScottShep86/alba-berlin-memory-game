@@ -60,8 +60,9 @@
   align-items: center;
 }
 
-.bio h2 {
+.bioLink {
   text-decoration: none;
+  color: #313866;
 }
 
 .footer {
