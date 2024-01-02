@@ -299,7 +299,7 @@ export default function GameScreen() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <h2>mehr Info</h2>
+                    <h2>{matchedPlayer.name}</h2>
                   </Link>
                   {/* Additional player information fields */}
                 </div>
@@ -311,7 +311,7 @@ export default function GameScreen() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <h2>{matchedPlayer.name}</h2>
+                    <h2>ALBA BERLIN</h2>
                   </Link>
                 </div>
               )}
