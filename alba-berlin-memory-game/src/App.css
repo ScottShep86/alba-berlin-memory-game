@@ -60,6 +60,10 @@
   align-items: center;
 }
 
+.bio Link {
+  text-decoration: none;
+}
+
 .footer {
   position: fixed;
   left: 0;
