@@ -7,9 +7,7 @@
 }
 
 .logo {
-  margin-top: 55px;
-  height: 30em;
-  padding: 1.5em;
+  height: 27em;
 }
 
 .logo:hover {
@@ -132,6 +130,11 @@
 }
 
 @media screen and (min-width: 1920px) {
+  .logo {
+    margin-top: 55px;
+    height: 30em;
+    padding: 1.5em;
+  }
   .player-details {
     width: 300px;
   }

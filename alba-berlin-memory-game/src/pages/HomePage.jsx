@@ -19,12 +19,12 @@ export default function HomePage() {
           <img className="logo" src={Logo} alt="Alba Berlin Logo" />
         </Link>
         <img className="kidsZone" src={kidsZone} alt="Alba Kids Zone" />
-        <Link className="link" to={'/game'}>
+        {/* <Link className="link" to={'/game'}>
           <button>MEMORY SPIEL</button>
         </Link>
         <Link className="link" to={'/albabet'}>
           <button>ALBA ABC</button>
-        </Link>
+        </Link> */}
       </div>
 
       <Footer />
