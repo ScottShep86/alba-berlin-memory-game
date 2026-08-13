@@ -8,12 +8,12 @@
 
 @keyframes ausmalbildBtn {
   0% {
-    transform: rotate(-6deg);
+    transform: rotate(-3deg);
   }
   50% {
-    transform: rotate(6deg);
+    transform: rotate(3deg);
   }
   100% {
-    transform: rotate(-6deg);
+    transform: rotate(-3deg);
   }
 }
